@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"rootDir": ".",
+		"module": "commonjs",
+		"outDir": "lib",
+		"sourceMap": true,
+		"strict": true,
+		"target": "ES2015",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"alwaysStrict": true,
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"typeRoots": ["./src/types", "/node_modules/@types"]
+	},
+	"compileOnSave": true,
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}

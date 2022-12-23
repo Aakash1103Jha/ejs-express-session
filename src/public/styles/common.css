@@ -1,0 +1,68 @@
+@import url("../assets/fonts/Poppins.css");
+
+:root {
+	--black: #02040f;
+	--violet-dark: #5c3ebb;
+	--violet-light: #baa5ff;
+	--white: #fdfdfd;
+	--gray-light: #d5deea;
+	--gray-medium: #a0b0c6;
+	--gray-dark: #566881;
+	--radius-sm: 0.3rem;
+	--radius-md: 0.6rem;
+	--radius-lg: 0.9rem;
+	--space-sm: 0.5rem;
+	--space-md: 1rem;
+	--space-lg: 1.5rem;
+	--space-xl: 4rem;
+	--desktop: 1440px;
+	--mobile: 375px;
+}
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+	transition: 0.3s;
+}
+li {
+	list-style: none;
+}
+svg {
+	cursor: pointer;
+}
+svg,
+a {
+	color: inherit;
+}
+a {
+	text-decoration: none;
+}
+div,
+section,
+span,
+a,
+p,
+li,
+ul,
+ol,
+button {
+	font-size: calc(0.8rem + 0.1vmin);
+}
+h1 {
+	font-size: calc(2rem + 0.1rem);
+}
+h3 {
+	font-size: calc(1.3rem + 0.1rem);
+	font-weight: 300;
+}
+input:active,
+input:focus,
+select:focus,
+select:active {
+	outline: none;
+}
+body {
+	background: var(--white);
+	color: var(--black);
+}
